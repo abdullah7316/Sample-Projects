@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: crimson;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.navbar{
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+}
+
+
+ul li .nav-link{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul li .nav-link:hover{
+    border: 1px solid crimson;
+    box-shadow: 0px 0px 8px crimson;
+}
+.call-logo{
+    width: 30px;
+    height: 30px;
+}
+#call-call{
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    transition-duration: 1s;
+}
+
+#call-call:hover{
+    color: #fff;
+    background-color: crimson;
+    transition-duration: 0.6s;
+    box-shadow: 0px 0px 8px crimson;
+}
+
+.ordernow-btn{
+    text-decoration: none;
+    padding: 3px 8px 3px 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 8px;
+    color: crimson;
+    margin: 20px 40px;
+    transition-duration: 1s;
+    box-shadow: 1px 1px 3px black;
+    /*--------------*/
+    position: fixed;
+    right: 15px;
+    top: 80px;
+}
+.ordernow-btn:hover{
+    background-color: crimson;
+    color: #fff;
+    transition-duration: 0.6s;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+@media (max-width: 770px) {
+    .navbar-expand-sm {
+      flex-wrap: wrap;
+    }
+}
+
+/*---------Order Now Button positioning according to width of screen-------*/
+@media (max-width: 927px) {
+    .ordernow-btn{
+        right: 15px;
+        top: 120px;
+    }
+}
+@media (max-width: 860px) {
+    .ordernow-btn{
+        right: 15px;
+        top: 140px;
+    }
+}
+@media (max-width: 619px) {
+    .ordernow-btn{
+        right: 15px;
+        top: 160px;
+    }
+}
+
+/*------------------------------------------------------------------------*/
+.bg-img{
+    box-shadow: 0px 0px 7px black;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+@media(min-width:1200px){
+    .bg-img{
+        background: url("/media/images/jumbotron_1200.jpg");
+        width: 1200px;
+        height: 675px;
+    } 
+}
+@media(min-width:992px) and (max-width:1199px){
+    .bg-img{
+        background: url("/media/images/jumbotron_992.jpg");
+        width: 992px;
+        height: 558px;
+    } 
+}
+@media(min-width:800px) and (max-width:991px){
+    .bg-img{
+        background: url("/media/images/jumbotron_768.jpg");
+        width: 768px;
+        height: 432px;
+    } 
+}
+@media(max-width:799px){
+    .bg-img{
+        background: url("/media/images/jumbotron_768.jpg") center;
+        width: 90vw;
+        height: 49vw;
+    } 
+}
+
+/*-------------------------Home-Tiles CSS-----------------------------*/
+.row > div{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border: 8px solid crimson;
+    cursor: pointer;
+    padding: 0;
+}
+.menu-div{
+    background: url("/media/images/menu-tile.jpg");
+    height: 250px;
+}
+.special-div{
+    background: url("/media/images/specials-tile.jpg");
+    height: 250px;
+}
+.map-div{
+    height: 250px;
+    overflow: hidden;
+}
+.row > div > a {
+    text-decoration: none;
+}
+
+.menu-h, .special-h{
+    /* height: 234px;             16px is subtracted as border of div  */
+    width: 100%;
+    margin-top: 190px;
+
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+.menu-h:hover, .special-h:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: crimson;
+    box-shadow: 0px 0px 12px crimson;
+}
+
+/*------------------------------Testimonials-----------------------------------*/
+.testimonials h1{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition-duration: 0.5s;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+}
+.testimonials h1:hover{
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 1);
+}
+
+.testimonials .border{
+    width: 33%;
+    margin: 15px auto;
+}
+
+.testimonials .row img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 35%;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+.content-testi .star-review{
+    margin: 5px 0px 5px 31%;
+}
+.testimonials .row img:hover{
+    box-shadow: 0px 0px 30px crimson;
+    transition: all 0.3s ease;
+}
+
+.testimonials .row .content-testi{
+    margin-top: 15px;
+    background-color: black;
+    color: crimson;
+    font-size: 22px;
+    text-align: justify;
+    padding: 15px;
+}
+.content-testi .star-review, .content-testi p{
+    transition: all 0.3s ease;
+}
+
+.content-testi .star-review:hover, .content-testi p:hover{
+    color: white;
+}
+
+/*------------------------------------------Footer--------------------------------------------*/
+.footer{
+    background-color: black;
+    color: #fff;
+    margin: 15px 0px 0px 0px ;
+    padding: 20px;
+}
+
+.custom-footer .row div{
+    border: none;
+    border-radius: none;
+}
+.custom-footer .row div ul li{
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.custom-footer .row .social-links a ion-icon{
+    height: 30px;
+    width: 30px;
+    color: white;
+    align-items: center;
+}
+.custom-footer h4{
+    color: crimson;
+}
+.custom-footer .row div ul li:hover, .custom-footer .row .social-links a ion-icon:hover{
+    color: crimson;
+}
+.custom-footer .row div ul li:hover{
+    padding-left: 8px;
+}
+
+.custom-footer .copyright{
+    text-align: center;
+}
+@media(max-width: 576px){
+    .footer{
+        text-align: center;
+        align-items: center;
+    }
+    .custom-footer .row div ul li:hover{
+        padding-top: 8px;
+    }
+
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/* .menu-h span, .special-h span, .map-h span{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+
+} */
+
+

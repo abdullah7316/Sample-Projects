@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Navigation Bar</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light">
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img class="logo d-inline-block align-center" 
+                src="media/images/drlogo.jpg">
+                David Chu's Restaurant
+            </a>
+    
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="#">Menu</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="#">Dishes</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="#">Awards</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <a href="tel: 410-602-5008" class="nav-link align-right" id="call-call">
+                <img src="media/images/telephone-fill.svg" class="call-logo">
+                410-602-5008
+            </a>
+            
+    </nav>
+    
+    
+    <div class="bg-img">
+        <!-- In this div I added responsive background image -->
+    </div>
+
+    <div class="container">
+        <hr>
+        <div class="row home-tiles">
+            <div class="col-md-4 col-sm-6 col-xs-12 menu-div">
+                <a href="#"><div class="menu-h"><span>Menu</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 special-div">
+                <a href="#"><div class="special-h"><span>Special</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 map-div">
+                <a href="https://goo.gl/maps/ApJ2Rgv2G4wsD5168" target="_blank">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12338.70098200007!2d-76.7116881!3d39.3635903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1sen!2s!4v1680229013924!5m2!1sen!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </div>
+        </div> 
+    </div>
+
+    <!-- Start of Testimonials Part -->
+    <div class="testimonials container">
+        <hr><h1>Testimonials</h1>
+        <div class="border">
+            <!-- Nothing -->
+        </div>
+
+        <div class="row">
+            <div class="content-testi col-md-4">
+                <img src="media/images/MenPic1.jpg" alt="Profile Picture"><br>
+                <div class="star-review">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <p> &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quisquam sequi doloremque eos a quaerat alias tenetur quos, nostrum, ab illum expedita beatae porro, aut fuga qui quasi. Soluta, blanditiis. &quot; </p>
+            </div>
+            <div class="content-testi col-md-4">
+                <img src="media/images/MenPic2.jpg" alt="Profile Picture"><br>
+                <div class="star-review">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p> &quot;Repellendus quisquam sequi doloremque eos a quaerat alias tenetur quos, nostrum, ab illum expedita beatae porro, aut fuga qui quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, blanditiis. &quot; </p>
+            </div>
+            <div class="content-testi col-md-4">
+                <img class="align-center" src="media/images/WomenPic1.jpg" alt="Profile Picture"><br>
+                <div class="star-review">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <p> &quot;Nostrum ab illum expedita beatae porro aut fuga qui quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quisquam sequi doloremque eos a quaerat alias tenetur quos.&quot; </p>
+            </div>
+        </div>
+    </div>
+    <!-- End of Testimonials Part -->
+
+    <!-- Start of Footer part -->
+    <footer class="footer">
+        <div class="container custom-footer">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 timing">
+                    <h4>Timing:</h4>
+                    <ul>
+                        <li>Sun-Thurs: 11:15am - 10:00pm</li>
+                        <li>Fri: 11:15am - 2:30pm</li>
+                        <li>Saturday Closed</li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 address">
+                    <h4>Address:</h4>
+                    <ul>
+                        <li>7105 Reisterstown Road</li>
+                        <li>Baltimore, MD 21215</li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 social-links">
+                    <h4>Follow us</h4>
+                    <a href="https://www.facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://www.instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div>
+            <div class="copyright">&copy; Copyright David Chu's China Bistro 2016</div>
+        </div>
+    </footer>
+    <!-- End of Footer part -->
+
+    <a class="ordernow-btn" href="#">
+        Order Now
+    </a>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
