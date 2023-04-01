@@ -108,28 +108,28 @@ ul li .nav-link:hover{
 
 @media(min-width:1200px){
     .bg-img{
-        background: url("/media/images/jumbotron_1200.jpg");
+        background: url('images/jumbotron_1200.jpg');
         width: 1200px;
         height: 675px;
     } 
 }
 @media(min-width:992px) and (max-width:1199px){
     .bg-img{
-        background: url("/media/images/jumbotron_992.jpg");
+        background: url("images/jumbotron_992.jpg");
         width: 992px;
         height: 558px;
     } 
 }
 @media(min-width:800px) and (max-width:991px){
     .bg-img{
-        background: url("/media/images/jumbotron_768.jpg");
+        background: url("images/jumbotron_768.jpg");
         width: 768px;
         height: 432px;
     } 
 }
 @media(max-width:799px){
     .bg-img{
-        background: url("/media/images/jumbotron_768.jpg") center;
+        background: url("images/jumbotron_768.jpg") center;
         width: 90vw;
         height: 49vw;
     } 
@@ -144,11 +144,11 @@ ul li .nav-link:hover{
     padding: 0;
 }
 .menu-div{
-    background-image: url('/media/images/menu-tile.jpg');
+    background-image: url('images/menu-tile.jpg');
     height: 250px;
 }
 .special-div{
-    background: url("/media/images/specials-tile.jpg");
+    background: url("images/specials-tile.jpg");
     height: 250px;
 }
 .map-div{
