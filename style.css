@@ -98,6 +98,12 @@ ul li .nav-link:hover{
         top: 160px;
     }
 }
+@media(max-width:576px){
+    .ordernow-btn{
+        right: 5px;
+        top: 90vh;
+    }
+}
 
 /*------------------------------------------------------------------------*/
 .bg-img{
@@ -108,14 +114,14 @@ ul li .nav-link:hover{
 
 @media(min-width:1200px){
     .bg-img{
-        background: url('images/jumbotron_1200.JPG');
+        background: url('/images/jumbotron_1200.JPG');
         width: 1200px;
         height: 675px;
     } 
 }
 @media(min-width:992px) and (max-width:1199px){
     .bg-img{
-        background: url("./images/jumbotron_992.JPG");
+        background: url("/images/jumbotron_992.JPG");
         width: 992px;
         height: 558px;
     } 
@@ -221,6 +227,7 @@ ul li .nav-link:hover{
     font-size: 22px;
     text-align: justify;
     padding: 15px;
+    overflow: hidden;
 }
 .content-testi .star-review, .content-testi p{
     transition: all 0.3s ease;
@@ -228,6 +235,22 @@ ul li .nav-link:hover{
 
 .content-testi .star-review:hover, .content-testi p:hover{
     color: white;
+}
+@media(max-width:767px){
+    .testimonials .row img{
+        margin-left: 38.4%;
+    }
+    .content-testi .star-review{
+        margin: 5px 0px 5px 33.5%;
+    }
+}
+@media(max-width:576px){
+    .testimonials .row img{
+        margin-left: 40%;
+    }
+    .content-testi .star-review{
+        margin: 5px 0px 5px 35%;
+    }
 }
 
 /*------------------------------------------Footer--------------------------------------------*/
@@ -272,6 +295,7 @@ ul li .nav-link:hover{
         align-items: center;
     }
     .custom-footer .row div ul li:hover{
+        padding-left: 0;
         padding-top: 8px;
     }
 
@@ -279,19 +303,5 @@ ul li .nav-link:hover{
 
 /*---------------------------------------------------------------------------------------*/
 
-
-/* .menu-h span, .special-h span, .map-h span{
-    position: relative;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    overflow: hidden;
-
-} */
 
 
