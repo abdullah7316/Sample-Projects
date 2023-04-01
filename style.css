@@ -108,7 +108,7 @@ ul li .nav-link:hover{
 
 @media(min-width:1200px){
     .bg-img{
-        background: url("/media/images/jumbotron_1200.jpg");
+        background: url("media/images/jumbotron_1200.jpg");
         width: 1200px;
         height: 675px;
     } 
@@ -144,7 +144,7 @@ ul li .nav-link:hover{
     padding: 0;
 }
 .menu-div{
-    background-image: url('/media/images/menu-tile.jpg');
+    background-image: url('media/images/menu-tile.jpg');
     height: 250px;
 }
 .special-div{
