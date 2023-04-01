@@ -144,7 +144,7 @@ ul li .nav-link:hover{
     padding: 0;
 }
 .menu-div{
-    background: url("./media/images/menu-tile.jpg");
+    background-image: url('/./media/images/menu-tile.jpg');
     height: 250px;
 }
 .special-div{
