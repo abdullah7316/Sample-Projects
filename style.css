@@ -114,28 +114,28 @@ ul li .nav-link:hover{
 
 @media(min-width:1200px){
     .bg-img{
-        background: url('images/jumbotron_1200.JPG');
+        background: url('images/jumbotron_1200.jpg');
         width: 1200px;
         height: 675px;
     } 
 }
 @media(min-width:992px) and (max-width:1199px){
     .bg-img{
-        background: url("images/jumbotron_992.JPG");
+        background: url("images/jumbotron_992.jpg");
         width: 992px;
         height: 558px;
     } 
 }
 @media(min-width:800px) and (max-width:991px){
     .bg-img{
-        background: url("images/jumbotron_768.JPG");
+        background: url("images/jumbotron_768.jpg");
         width: 768px;
         height: 432px;
     } 
 }
 @media(max-width:799px){
     .bg-img{
-        background: url("images/jumbotron_768.JPG") center;
+        background: url("images/jumbotron_768.jpg") center;
         width: 90vw;
         height: 49vw;
     } 
