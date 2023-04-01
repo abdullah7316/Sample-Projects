@@ -108,7 +108,7 @@ ul li .nav-link:hover{
 
 @media(min-width:1200px){
     .bg-img{
-        background: url('images/jumbotron_1200.jpg');
+        background: url('images/jumbotron_1200.JPG');
         width: 1200px;
         height: 675px;
     } 
@@ -129,7 +129,7 @@ ul li .nav-link:hover{
 }
 @media(max-width:799px){
     .bg-img{
-        background: url("images/jumbotron_768.JPG") center;
+        background: url("/images/jumbotron_768.JPG") center;
         width: 90vw;
         height: 49vw;
     } 
